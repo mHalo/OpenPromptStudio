@@ -1,11 +1,7 @@
 <template>
     <div class="IndexPage">
         <nav>
-            <a class="logo" href="https://github.com/Moonvy/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
-            <a class="icon-link" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <Icon icon="radix-icons:github-logo"
-            /></a>
-
+            <a class="logo" href="https://github.com/MHalo/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
                 <button class="icon dict-button"><Icon icon="mingcute:book-4-fill" /></button>
