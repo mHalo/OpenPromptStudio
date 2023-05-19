@@ -7,7 +7,7 @@
                 <button class="icon dict-button"><Icon icon="mingcute:book-4-fill" /></button>
             </div>
         </nav>
-        <PromptEditor ref="PromptEditor" :init-prompts="initPrompts" />
+        <PromptEditor :class="[showDictPad ? 'float-left' : '']" ref="PromptEditor" :init-prompts="initPrompts" />
         <section class="PromptDictPad" v-if="needDictPad" v-show="showDictPad">
             <div class="title">
                 <Icon icon="mingcute:book-4-fill" />
