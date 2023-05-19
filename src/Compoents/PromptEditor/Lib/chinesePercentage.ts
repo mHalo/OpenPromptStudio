@@ -1,4 +1,5 @@
 export function chinesePercentage(text: string) {
+    text = text || 'nothing';
     var chineseCount = 0
     for (var i = 0; i < text.length; i++) {
         var charCode = text.charCodeAt(i)

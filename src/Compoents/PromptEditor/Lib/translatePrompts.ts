@@ -56,7 +56,6 @@ export async function translateZh2En(texts: string[]) {
         return x[0]
     })
     let re = await translatePrompts(prompts, { to: "en" })
-    // console.log("[translateZh2En]", prompts, "=>", re)
     if (re) {
         re.forEach((en, i) => {
             let orgIndex = zhWords[i][1]

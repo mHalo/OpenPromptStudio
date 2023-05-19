@@ -1,12 +1,14 @@
 import * as tencentcloud from "tencentcloud-sdk-nodejs"
 import { useOf } from "fzz"
 const TmtClient = tencentcloud.tmt.v20180321.Client
+require('dotenv').config()
 
+let env = process.env;
 let useTencentClient = useOf(() => {
     const clientConfig = {
         credential: {
-            secretId: process.env.TENCENT_SECRET_ID,
-            secretKey: process.env.TENCENT_SECRET_KEY,
+            secretId: env.TENCENT_SECRET_ID,
+            secretKey: env.TENCENT_SECRET_KEY,
         },
         region: "ap-beijing",
         profile: {
