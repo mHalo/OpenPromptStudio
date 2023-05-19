@@ -16,9 +16,6 @@
             <div class="title">
                 <Icon icon="mingcute:book-4-fill" />
                 提示词词典
-                <!--                <a class="github-dict" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">-->
-                <!--                    <Icon icon="radix-icons:github-logo" />一起维护词典</a-->
-                <!--                >-->
                 <button class="icon close-button" @click="toggleDictPad(false)">
                     <Icon icon="radix-icons:cross-1" />
                 </button>
@@ -26,10 +23,9 @@
             <PromptDict />
         </section>
         <footer>
-            <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
+            <a href="https://github.com/MHalo/OpenPromptStudio" target="_blank">
                 <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
             </a>
-            <a href="https://moonvy.com/?homepage"> made by <img src="./assets/logo_full_cn.svg" /></a>
         </footer>
     </div>
 </template>
