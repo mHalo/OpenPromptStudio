@@ -11,7 +11,7 @@ dotenv.config()
 // https://vitejs.dev/config/
 let config = {
     root: "./web",
-    base: "/ops/",
+    base: "/",
     server: {
         port: process.env.HOST_WEB_PORT || 12833,
         host: "127.0.0.1",

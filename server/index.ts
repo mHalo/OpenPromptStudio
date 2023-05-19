@@ -24,6 +24,6 @@ app.post("/prompt-studio/translate/prompts", async (req: any, res: any) => {
 })
 
 const port = process.env.HOST_SERVER_PORT || 39011
-app.listen(port, () => {
+app.listen(port, '127.0.0.1', () => {
     console.log(`translate server started on port ${port}`)
 })

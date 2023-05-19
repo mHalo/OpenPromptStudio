@@ -6,10 +6,6 @@ export function getRoutes() {
     return [
         {
             path: "/",
-            redirect: "/ops/",
-        },
-        {
-            path: "/ops/",
             name: "Index",
             component: vIndex,
         },
