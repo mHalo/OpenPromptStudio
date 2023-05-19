@@ -13,8 +13,8 @@ let config = {
     root: "./web",
     base: "/apps/ops/",
     server: {
-        port: 12833,
-        host: "0.0.0.0",
+        port: process.env.HOST_WEB_PORT || 12833,
+        host: "127.0.0.1",
     },
     worker: {
         format: "es",
