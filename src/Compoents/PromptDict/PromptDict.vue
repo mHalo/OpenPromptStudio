@@ -95,6 +95,7 @@
             min-width: 72px;
             white-space: nowrap;
             place-content: center;
+            box-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff;
             &.active {
                 background: #4545b2;
                 color: #d5d7ef;
