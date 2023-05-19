@@ -18,11 +18,11 @@
             </div>
             <PromptDict />
         </section>
-        <footer>
+        <!-- <footer>
             <a href="https://github.com/MHalo/OpenPromptStudio" target="_blank">
                 <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
             </a>
-        </footer>
+        </footer> -->
     </div>
 </template>
 <style lang="scss">
