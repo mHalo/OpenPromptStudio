@@ -1,7 +1,7 @@
 <template>
     <div class="IndexPage">
         <nav>
-            <a class="logo" href="https://github.com/MHalo/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
+            <a class="logo" href="https://github.com/MHalo/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio@{{ version }}</a>
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
                 <button class="icon dict-button"><Icon icon="mingcute:book-4-fill" /></button>
@@ -79,8 +79,8 @@
         display: flex;
         place-content: flex-end;
         place-items: center;
-        padding-bottom: 20px;
-        padding-top: 32px;
+        padding-bottom: 12px;
+        padding-top: 12px;
         padding-right: 20px;
         border-top: 1px solid #d7d7d7;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9215686275) inset;
